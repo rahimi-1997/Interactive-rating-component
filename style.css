@@ -1,0 +1,139 @@
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(216, 13%, 15%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Clr-Border: hsl(213, 19%, 25%);
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--Very-Dark-Blue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    max-width: 420px;
+    background: var(--Dark-Blue);
+    display: flex;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.star {
+   padding: 16px; 
+   border-radius: 50%;
+   background: var(--Clr-Border);
+   margin-bottom: 30px;
+}
+
+h1 {
+    color: var(--White);
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: var(--Light-Grey);
+    font-size: 0.938rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.rating-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opt {
+    background: var(--Clr-Border);
+    color: var(--White);
+    padding: 16px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-bottom: 32px;
+    transition: all 0.3s ease-in-out;
+}
+
+.opt:hover {
+    background: var(--Medium-Grey);
+}
+
+#submit-btn,
+#return-btn {
+    width: 100%;
+    background: var(--Orange);
+    color: var(--White);
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.7s linear;
+}
+
+#submit-btn:hover,
+#return-btn:hover {
+    background: var(--White);
+    color: var(--Orange);
+}
+
+.state {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    background: var(--Clr-Border);
+    color: hsl(25, 97%, 53%, 0.8);
+    width: max-content;
+    border-radius: 15px;
+    padding: 5px 15px 3px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.checked {
+    background-color: var(--Orange);
+    color: var(--White);
+  }
+
+.hidden {
+    display: none;
+}
+
+
+
