@@ -40,7 +40,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-hIk_TlSjQW)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-7oH0NT7--h)
 - Live Site URL: [Live Site](https://rahimi-1997.github.io/Interactive-rating-component/)
 
 ## My process
